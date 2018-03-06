@@ -1,0 +1,36 @@
+{
+    "name": "anran02/lc-font",
+    "description": "LC test project",
+    "keywords": [ "project"],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "fxp/composer-asset-plugin":"^1.2.0",
+        "yiisoft/yii2-app-advanced":">=2.0.12",
+        "qiniu/php-sdk": "^7.0",
+        "yiisoft/yii2-redis": ">=2.0.4",
+        "workerman/gatewayclient": "v3.0.0",
+        "chrisboulton/php-resque": "1.2",
+        "chrisboulton/php-resque-scheduler": "1.1",
+        "phpoffice/phpexcel": "*"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "repositories": {
+    "packagist": {
+        "type": "composer",
+        "url": "https://packagist.phpcomposer.com"
+    }
+}
+}
